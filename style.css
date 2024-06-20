@@ -1,0 +1,208 @@
+
+* {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  :root {
+    --background-color: #f0f0f0;
+    --roxo-escuro: #b06dd6;
+    --roxo-claro: #db9afe;
+    --branco: white;
+    --link-hover-color: #ddd;
+    --link-hover-background: #555;
+    --container-background: #fff;
+    --border-color: #0f0f0f;
+    --text-color: #333;
+
+    --content-box-width: 80%;
+    --content-box-padding: 15px;
+    --content-box-border-radius: 20px;
+    --content-box-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    background-color: var(--cor3); /* rgba(165, 172, 161, 0.801);  */
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.37);
+    padding: 40px;
+    background-color: var(--roxo-claro);
+    border-radius: 25px;
+}
+
+main h1 {
+    margin-bottom: 20px; /* Espaço entre o título e as imagens */
+    margin-top: 20px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.container { 
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: var(--roxo-claro);
+    padding: var(--content-box-padding);
+    border-radius: var(--content-box-border-radius);
+    box-shadow: var(--content-box-box-shadow);
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px; /* Espaço entre as imagens */
+    width: 230px;
+    height: 180px;
+    border-radius: 30px;
+    border: 3px;
+    border-color: black;
+    align-items: center;
+}
+
+  .navbar {
+    width: 100%;
+    background-color: var(--roxo-escuro);
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* Remove marcadores de lista */
+    display: flex; /* Faz com que os itens de lista fiquem em linha */
+    justify-content: center; /* Centraliza os itens no centro da barra de navegação */
+}
+
+.navbar ul li {
+    margin: 10px;
+    display: inline; /* Exibe os itens de lista em linha */
+}
+
+.navbar ul li a {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.form {
+    width: 300px;
+    height: 320px;
+    /*max-width: 800px; /* Ajuste conforme necessário */
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form label {
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.form input[type="number"] {
+    width: 80%; /* Faz o input ocupar toda a largura da div */
+    padding: 15px;
+    margin-bottom: 40px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+    border: 1px solid #ccc; /* Estilo da borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+
+}
+
+.form button {
+    width: 50%;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form button:hover {
+    background-color: #45a049;
+}
+
+.form h2 {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.form h2 span {
+    font-weight: bold;
+    color: #333;
+}
+/*
+.form{
+    margin: 10px;
+}
+
+.form label{
+    font-size: 18px;
+}
+
+.form input{
+    margin: 10px;
+    size: 60px;
+}
+
+.form h2{
+    font-size: 22px;
+}
+
+.form button{
+    margin: 10px;
+    size: 50px;
+}
+
+
+
+*/
+/*
+#ml{
+    background-color: yellow;
+}
+
+#amazon{
+    background-color: #555;
+}
+
+#magalu{
+    background-color: blue;
+}
+
+#shopee{
+    background-color: orange;
+}
+
+#shein{
+    background-color: aqua;
+}*/
